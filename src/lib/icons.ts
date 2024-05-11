@@ -12,6 +12,7 @@ export const icons = (slug: string) => {
     'morning-dhikr': morningDhikr,
     'evening-dhikr': eveningDhikr,
     'dhikr-after-salah': dhikrAfterSalah,
+    'haji-umroh': noIcon,
   }
 
   return icons[slug] || noIcon
