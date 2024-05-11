@@ -9,7 +9,7 @@ export type ResponseType = {
 
 export const fetcher = async (...segments: string[]): Promise<ResponseType> => {
   const endpoint = segments.join('/')
-  const target = `https://dua-dhikr.vercel.app/${endpoint}`
+  const target = `https://dua-dhikr-api.vercel.app/${endpoint}`
 
   const response = await ofetch(target, {
     ignoreResponseError: true,
