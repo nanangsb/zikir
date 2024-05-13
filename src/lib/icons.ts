@@ -7,7 +7,9 @@ import dhikrAfterSalah from '$assets/dhikr-after-salah.png'
 import hajiUmroh from '$assets/hajj.png'
 import wudhu from '$assets/wudhu.png'
 import shalat from '$assets/shalat.png'
-
+import mosque from '$assets/mosque.png'
+import sleeping from '$assets/sleeping.png'
+import ramadhan from '$assets/lantern.png'
 
 export const icons = (slug: string) => {
   const icons = {
@@ -19,6 +21,9 @@ export const icons = (slug: string) => {
     'haji-umroh': hajiUmroh,
     'wudhu': wudhu,
     'sholat': shalat,
+    'masjid': mosque,
+    'tidur': sleeping,
+    'ramadhan': ramadhan,
   }
 
   return icons[slug] || noIcon
