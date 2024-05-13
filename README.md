@@ -4,5 +4,5 @@ Sebuah apliasi berbasis web kumpulan bacaan doa dan dzikir dari berbagai sumber 
 Proyek ini masih dalam proses pengerjaan, sehingga masih belum lengkap.
 
 ## Demo
-https://v2.zikir.org/
+https://v2.zikir.org/ dan
 https://zikirku.vercel.app/
