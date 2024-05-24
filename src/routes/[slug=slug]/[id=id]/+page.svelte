@@ -86,7 +86,7 @@
       {/if}
     </div>
 
-    <div dir="rtl" class="text-4xl leading-[3rem]">{content.arabic}</div>
+    <div dir="rtl" class="text-4xl leading-[4rem]">{content.arabic}</div>
     <p class="italic text-gray-600">{content.latin.toLowerCase()}</p>
 
     <div>
