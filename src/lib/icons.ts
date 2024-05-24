@@ -10,10 +10,13 @@ import shalat from '$assets/shalat.png'
 import mosque from '$assets/mosque.png'
 import sleeping from '$assets/sleeping.png'
 import ramadhan from '$assets/lantern.png'
+import sebab from '$assets/intervention.png'
+import everytime from '$assets/real-time.png'
 
 export const icons = (slug: string) => {
   const icons = {
     'daily-dua': dailyDua,
+    'everytime': everytime,
     'selected-dua': selectedDua,
     'morning-dhikr': morningDhikr,
     'evening-dhikr': eveningDhikr,
@@ -24,6 +27,7 @@ export const icons = (slug: string) => {
     'masjid': mosque,
     'tidur': sleeping,
     'ramadhan': ramadhan,
+    'sebab': sebab,
   }
 
   return icons[slug] || noIcon
