@@ -86,7 +86,7 @@
       {/if}
     </div>
 
-    <div dir="rtl" class="text-4xl leading-[6rem]">{content.arabic}</div>
+    <div dir="rtl" class="text-4xl leading-[6rem] tracking-wide">{content.arabic}</div>
     <p class="italic text-gray-600">{content.latin.toLowerCase()}</p>
 
     <div>
@@ -96,7 +96,7 @@
 
     {#if content.fawaid}
       <div>
-        <h3 class="text-lg font-medium mb-3">Faedah</h3>
+        <h3 class="text-lg font-medium mb-3">Tentang Doa</h3>
         <p class="text-gray-700">{content.fawaid}</p>
       </div>
     {/if}
