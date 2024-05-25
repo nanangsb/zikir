@@ -86,8 +86,8 @@
       {/if}
     </div>
 
-    <div dir="rtl" class="text-5xl text-green-950 leading-relaxed tracking-wide">{content.arabic}</div>
-    <p class="italic text-lg text-gray-900">{content.latin.toLowerCase()}</p>
+    <div dir="rtl" class="text-5xl text-green-800 leading-relaxed tracking-wide">{content.arabic}</div>
+    <p class="italic font-semibold text-lg text-gray-900">{content.latin.toLowerCase()}</p>
 
     <div>
       <h3 class="text-lg font-medium mb-3">Terjemahan</h3>
