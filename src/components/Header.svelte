@@ -6,7 +6,7 @@
   <title>{title}</title>
 </svelte:head>
 
-<header class="text-center py-5">
+<header class="text-center shadow-lg py-5">
   <div class="flex px-4 items-center justify-between">
     <div class="w-6 shrink-0">
       <slot name="left" />
