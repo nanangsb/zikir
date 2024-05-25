@@ -137,6 +137,6 @@
   }
 
   [dir='rtl'] {
-    font-family: 'Amiri Quran', serif;
+    font-family: 'Noto Naskh Arabic', serif;
   }
 </style>
