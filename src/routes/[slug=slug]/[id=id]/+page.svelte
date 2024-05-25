@@ -96,7 +96,7 @@
 
     {#if content.fawaid}
       <div>
-        <h3 class="text-lg font-medium mb-3">Tentang Doa</h3>
+        <h3 class="text-lg font-medium mb-3">Penjelasan</h3>
         <p class="text-gray-700">{content.fawaid}</p>
       </div>
     {/if}
